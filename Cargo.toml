@@ -1,0 +1,21 @@
+[package]
+name = "wordcount"
+version = "0.1.0"
+authors = ["takahiro izumikawa <takahiro.izumikawa@gmail.com>"]
+edition = "2018"
+
+license = "MIT"
+description = "シンプルな文字、単語、行の出現頻度の計測機能を提供します"
+readme = "README.md"
+repository = ""
+categories = ["command-line-utilities"]
+keywords = ["example", "frequency", "text"]
+
+exclude = ["test.txt", "tests/*"]
+
+[badges]
+# バッチがあれば
+
+[dependencies]
+regex = "1.5"
+indoc = "1.0"
